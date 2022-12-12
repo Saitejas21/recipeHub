@@ -1,7 +1,10 @@
 const router = require("express").Router();
+const User = require("../models/User");
 
-router.get("/",(req,res)=>{
-    res.send("hey its auth route")
+
+//REGISTER
+router.post("/register", async (req,res)=>{
+    
 })
 
 module.exports = router
